@@ -1,2 +1,4 @@
-# C-
-competative
+# C-codeforces
+122A - Lucky Division
+
+
