@@ -1,0 +1,23 @@
+#include<stdio.h>
+int main(){
+    int n,c,k;
+    scanf("%d",&n);
+    k=n;
+    while(n>0){
+        c=n%10;
+        if(c==4 || c==7){
+            n=n/10;
+        }
+        else{
+            if((k%4)==0 || (k%7)==0 || (k%47)==0 || (k%74)==0 || (k%77)==0 ||(k%444)==0 ||(k%474)==0 || (k%477)==0 ||(k%744)==0 ||(k%774)==0||(k%777)==0){
+                printf("YES\n");
+                return 0;
+            }
+        else{
+            printf("NO\n");
+            return 0;
+            }
+        }
+    }
+    printf("YES\n");
+}
